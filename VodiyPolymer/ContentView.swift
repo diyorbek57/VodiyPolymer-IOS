@@ -19,16 +19,16 @@ struct ContentView: View {
                 Text("Hello, world!")
             }
         }.padding(15).background(CustomColor.color_1)
-       
+        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-                   ContentView()
-                   
+            ContentView()
             
-               }
+            
+        }
     }
 }
